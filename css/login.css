@@ -1,0 +1,62 @@
+@import url('reset.css');
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url("../images/4555.gif") center no-repeat;
+    background-size: cover;
+
+}
+
+
+.login__header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.login__header img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.login__header h1 {
+
+    color: #fff;
+    text-shadow: 4px 4px #000, 6px 6px #ccc;
+    margin-top: 1rem;
+}
+ 
+.login__input{
+    border: 2px solid orange;
+    padding: .7rem;
+    border-radius: 8px;
+    color: black;
+    outline-color: orange;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+}
+
+
+.login__button{
+    width: 100%;
+    padding: .8rem;
+    max-width: 350px;
+    border-radius: 8px;
+    background-color: orange;
+    color: #000000;
+    text-shadow: 1px 1px #000;
+    font-size: 1rem ;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.login__button:disabled {
+    background-color: #ccc;
+    cursor: auto;
+
+}
